@@ -15,23 +15,43 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav>
+    <section id="home" class="section">
+        <!-- Home section content -->
+    </section>
+
+    <section id="tours" class="section">
+        <!-- Tours section content -->
+    </section>
+
+    <section id="about" class="section">
+        <!-- About Us section content -->
+    </section>
+
+    <section id="contact" class="section">
+        <!-- Contact section content -->
+    </section>
+    <section id="download" class="section">
+        <div class="container">
+            <h2>YouTube Video Downloader</h2>
+            <p>Enter YouTube Video URL:</p>
+            <input type="text" id="videoUrl" placeholder="Paste video link here">
+            <button onclick="processVideo()">Get Video Resolutions</button>
+            <div id="resolutionOptions"></div>
+            <button id="downloadButton" onclick="startDownload()">Download Video</button>
+        </div>
+    </section>
     <div class="container">
         <h1>YouTube Video Downloader</h1>
-        <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+        <input type="text" id="videoUrl" placeholder="Enter/Paste YouTube Video URL">
         <button onclick="processVideo()">Get Video Resolutions</button>
         <div id="resolutionOptions"></div>
         <button id="downloadButton" onclick="startDownload()">Download Video</button>
     </div>
-    <div class="gallery">
-        <div class="slider">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
-        </div>
-    </div>
+
     <footer>
         <p>&copy; 2024 Giwa Tech. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
